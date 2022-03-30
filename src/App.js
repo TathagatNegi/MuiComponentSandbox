@@ -23,7 +23,7 @@ const DropdownLabel = ({ children }) => {
 export default function App() {
   //const dispatch = useDispatch();
   const allOptions = [
-    { ID: 1, Name: "Ar" },
+    { ID: 1, Name: "Arnav" },
     { ID: 2, Name: "Anchal" },
     { ID: 3, Name: "Saurabh" },
     { ID: 4, Name: "Tathagat" },
