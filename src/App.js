@@ -6,6 +6,9 @@ import MuiDropdownStandard from "./MuiDropdownExamples/MuiDropdownStandard";
 import MuiDropdownFilled from "./MuiDropdownExamples/MuiDropdownFilled";
 import MuiDropdownOutlined from "./MuiDropdownExamples/MuiDropdownOutlined";
 import MuiDropdownOutlinedMultiple from "./MuiDropdownExamples/MuiDropdownOutlinedMultiple";
+//Mui Modal Example
+import MuiModalFailure from "./MuiModalExamples/MuiModalFailure";
+import MuiModalSuccess from "./MuiModalExamples/MuiModalSuccess";
 
 const Container = ({ children }) => {
   return (
@@ -56,6 +59,20 @@ export default function App() {
       <Container>
         <DropdownLabel>MuiDropdownOutlinedMultiple</DropdownLabel>
         <MuiDropdownOutlinedMultiple allOptions={allOptions} />
+      </Container>
+
+      <h2>Mui Modal Examples</h2>
+      <Container>
+        <DropdownLabel>Failue Modal</DropdownLabel>
+        <DropdownLabel>
+          {" "}
+          <MuiModalFailure />
+        </DropdownLabel>
+        <DropdownLabel>Success Modal</DropdownLabel>
+        <DropdownLabel>
+          {" "}
+          <MuiModalSuccess />
+        </DropdownLabel>
       </Container>
     </div>
   );
