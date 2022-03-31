@@ -1,2 +1,2 @@
-# testsandbox
+# MuiComponentSandbox
 Created with CodeSandbox
